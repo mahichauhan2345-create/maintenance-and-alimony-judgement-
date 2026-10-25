@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance and Alimony for Wives in the Supreme Court of India, 2021 to 2026</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    },
+                    colors: {
+                        legal: {
+                            50: '#f4f6f9',
+                            100: '#e2e8f0',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            accent: '#b45309',
+                            gold: '#d97706'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+        }
+        .hero-pattern {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+        table.legal-table th {
+            background-color: #1e293b;
+            color: #ffffff;
+            font-weight: 600;
+        }
+        table.legal-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        table.legal-table tr:hover {
+            background-color: #f1f5f9;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Top Academic / GitHub Banner -->
+    <header class="hero-pattern text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <div class="flex items-center space-x-2 text-amber-400 text-sm font-semibold tracking-wider uppercase mb-2">
+                        <i class="fa-solid fa-scale-balanced mr-1"></i> Supreme Court of India Research Repository
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl font-serif font-bold tracking-tight">
+                        Maintenance and alimony for wives in the Supreme Court of India, 2021 to 2026
+                    </h1>
+                    <p class="mt-2 text-slate-300 max-w-3xl text-sm sm:text-base">
+                        A rigorous jurimetric and doctrinal analysis of 20 authoritative Supreme Court judgments decided between 01-09-2021 and 31-08-2026 regarding spousal maintenance, interim relief, and permanent alimony.
+                    </p>
+                </div>
+                <div class="flex items-center space-x-3 bg-slate-800/80 p-3 rounded-lg border border-slate-700">
+                    <div class="text-right">
+                        <div class="text-xs text-slate-400">Project Repository</div>
+                        <a href="https://github.com/legal-research/maintenance-alimony-sc-2026" class="text-sm font-medium text-blue-400 hover:underline flex items-center justify-end">
+                            <i class="fa-brands fa-github mr-1.5"></i> github.com/legal-research
+                        </a>
+                    </div>
+                    <span class="bg-green-500/20 text-green-400 text-xs px-2.5 py-1 rounded-full font-semibold border border-green-500/30">Active v2.4</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex space-x-8 items-center">
+                    <a href="#overview" class="text-slate-700 hover:text-amber-600 font-medium text-sm transition-colors flex items-center">
+                        <i class="fa-solid fa-house-chimney mr-1.5 text-slate-400"></i> Overview
+                    </a>
+                    <a href="#analytics" class="text-slate-700 hover:text-amber-600 font-medium text-sm transition-colors flex items-center">
+                        <i class="fa-solid fa-chart-pie mr-1.5 text-slate-400"></i> Data & Visualizations
+                    </a>
+                    <a href="#doctrinal" class="text-slate-700 hover:text-amber-600 font-medium text-sm transition-colors flex items-center">
+                        <i class="fa-solid fa-book-open mr-1.5 text-slate-400"></i> Doctrinal Evolution
+                    </a>
+                    <a href="#repository" class="text-slate-700 hover:text-amber-600 font-medium text-sm transition-colors flex items-center">
+                        <i class="fa-solid fa-database mr-1.5 text-slate-400"></i> Judgment Database (20)
+                    </a>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <span class="text-xs text-slate-500 hidden sm:inline">Analyst: Maintenance and Alimony Analysts</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full space-y-12">
+
+        <!-- SECTION 1: OVERVIEW & METRICS -->
+        <section id="overview" class="space-y-6">
+            <div class="bg-white rounded-xl p-6 sm:p-8 card-shadow border border-slate-200">
+                <div class="border-b border-slate-100 pb-4 mb-6">
+                    <h2 class="text-2xl font-serif font-bold text-slate-900">Project Overview & Scope</h2>
+                    <p class="text-sm text-slate-500 mt-1">Empirical dataset covering Supreme Court rulings from September 1, 2021 to August 31, 2026.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-slate-50 p-5 rounded-lg border border-slate-200">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-medium text-slate-500">Total Judgments Coded</span>
+                            <i class="fa-solid fa-gavel text-amber-600 text-xl"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-slate-900 mt-2">20</div>
+                        <div class="text-xs text-slate-500 mt-1">Decided between 2021–2026</div>
+                    </div>
+                    <div class="bg-slate-50 p-5 rounded-lg border border-slate-200">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-medium text-slate-500">Appeals Allowed</span>
+                            <i class="fa-solid fa-circle-check text-green-600 text-xl"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-slate-900 mt-2">15 <span class="text-sm font-normal text-slate-500">(75%)</span></div>
+                        <div class="text-xs text-slate-500 mt-1">5 Partly Allowed, 1 Dismissed</div>
+                    </div>
+                    <div class="bg-slate-50 p-5 rounded-lg border border-slate-200">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-medium text-slate-500">Primary Statutes</span>
+                            <i class="fa-solid fa-book-bookmark text-blue-600 text-xl"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-slate-900 mt-2">CrPC / HMA</div>
+                        <div class="text-xs text-slate-500 mt-1">Section 125, HMA ss. 24/25, Article 142</div>
+                    </div>
+                    <div class="bg-slate-50 p-5 rounded-lg border border-slate-200">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-medium text-slate-500">Bench Composition</span>
+                            <i class="fa-solid fa-users-rectangle text-purple-600 text-xl"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-slate-900 mt-2">2 & 3 Judges</div>
+                        <div class="text-xs text-slate-500 mt-1">Including 3-Judge Constitution Bench Reference</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: DATA ANALYSIS & VISUALIZATIONS -->
+        <section id="analytics" class="space-y-8">
+            <div class="border-b border-slate-200 pb-4">
+                <h2 class="text-2xl font-serif font-bold text-slate-900">Data Analysis & Visualizations</h2>
+                <p class="text-sm text-slate-600 mt-1">Quantitative breakdown of judicial trends, case classifications, statutory provisions, and outcomes.</p>
+            </div>
+
+            <!-- Charts Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Chart 1: Judgments per Year -->
+                <div class="bg-white p-6 rounded-xl card-shadow border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-serif font-semibold text-lg text-slate-900">Judgments by Year (2021–2026)</h3>
+                            <span class="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-medium">Temporal Trend</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">Note: 2021 and 2026 represent part-year search windows (1 Sep 2021 to 31 Aug 2026).</p>
+                    </div>
+                    <div class="relative h-72 w-full">
+                        <canvas id="chartJudgmentsPerYear"></canvas>
+                    </div>
+                </div>
+
+                <!-- Chart 2: Outcome Distribution -->
+                <div class="bg-white p-6 rounded-xl card-shadow border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-serif font-semibold text-lg text-slate-900">Outcome Distribution of Appeals</h3>
+                            <span class="text-xs bg-amber-50 text-amber-700 px-2.5 py-1 rounded-full font-medium">Adjudication Success</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">Proportion of appeals allowed, partly allowed, or dismissed by the Supreme Court.</p>
+                    </div>
+                    <div class="relative h-72 w-full flex items-center justify-center">
+                        <canvas id="chartOutcome"></canvas>
+                    </div>
+                </div>
+
+                <!-- Chart 3: Case Types -->
+                <div class="bg-white p-6 rounded-xl card-shadow border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-serif font-semibold text-lg text-slate-900">Distribution by Case Type</h3>
+                            <span class="text-xs bg-purple-50 text-purple-700 px-2.5 py-1 rounded-full font-medium">Procedural Routing</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">Classification between Criminal Appeals, Civil Appeals, and Transfer/Other Petitions.</p>
+                    </div>
+                    <div class="relative h-72 w-full flex items-center justify-center">
+                        <canvas id="chartCaseType"></canvas>
+                    </div>
+                </div>
+
+                <!-- Chart 4: Primary Provisions -->
+                <div class="bg-white p-6 rounded-xl card-shadow border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-serif font-semibold text-lg text-slate-900">Primary Statutory Provisions</h3>
+                            <span class="text-xs bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-full font-medium">Legal Basis</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">Breakdown of legal provisions invoked across the 20 coded judgments.</p>
+                    </div>
+                    <div class="relative h-72 w-full flex items-center justify-center">
+                        <canvas id="chartProvisions"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: DOCTRINAL EVOLUTION & THEMATIC TRENDS -->
+        <section id="doctrinal" class="bg-white rounded-xl p-6 sm:p-8 card-shadow border border-slate-200 space-y-6">
+            <div class="border-b border-slate-100 pb-4">
+                <h2 class="text-2xl font-serif font-bold text-slate-900">Doctrinal Evolution & Key Thematic Trends (2021–2026)</h2>
+                <p class="text-sm text-slate-500 mt-1">Synthesis of major jurisprudential shifts in Indian maintenance and alimony law.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-amber-600 text-white p-2.5 rounded-lg">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        </div>
+                        <h3 class="font-serif font-bold text-slate-900 text-lg">1. Start Date & Retroactive Protection</h3>
+                    </div>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Reaffirming the roadmap in <em>Rajnesh v. Neha</em>, rulings like <em>Shahjahan (2025)</em> established that maintenance must be granted from the <strong>date of filing the application</strong>. Courts actively reject attempts by husbands or lower tribunals to delay payments or restrict maintenance solely to the date of the order, shielding wives from systemic judicial backlogs.
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-blue-600 text-white p-2.5 rounded-lg">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="font-serif font-bold text-slate-900 text-lg">2. Qualification vs. Earning Capacity</h3>
+                    </div>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        In cases like <em>Anamika Jain (2026)</em>, the Supreme Court clarified that a wife's high professional qualification (such as an MBA or technical degree) or abstract capacity to earn does not automatically disqualify her. Unless she is actually gainfully employed with sufficient income to maintain her marital standard of living, her maintenance entitlement remains intact.
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-emerald-600 text-white p-2.5 rounded-lg">
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                        </div>
+                        <h3 class="font-serif font-bold text-slate-900 text-lg">3. Bigamous & Void Marriages Protection</h3>
+                    </div>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        The landmark 3-judge bench ruling in <em>Sukhdev Singh v. Sukhbir Kaur (2025)</em> settled conflicting views by holding that spouses of void or bigamous marriages under Section 11 HMA are fully entitled to claim interim maintenance (Sec. 24) and permanent alimony (Sec. 25), while giving courts equitable discretion based on conduct.
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-purple-600 text-white p-2.5 rounded-lg">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3 class="font-serif font-bold text-slate-900 text-lg">4. Dynamic Alimony & Periodic Escalation</h3>
+                    </div>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        To counter inflation and eliminate repetitive modification litigation, modern judgments like <em>Rakhi Sadhukhan (2025)</em> introduced structured financial mechanisms—such as <strong>mandatory biennial percentage escalations (e.g., 5% every two years)</strong>—ensuring long-term economic security for dependent spouses.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: JUDGMENT REPOSITORY TABLE -->
+        <section id="repository" class="bg-white rounded-xl p-6 sm:p-8 card-shadow border border-slate-200 space-y-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-100 pb-4">
+                <div>
+                    <h2 class="text-2xl font-serif font-bold text-slate-900">Complete Judgment Repository (2021–2026)</h2>
+                    <p class="text-sm text-slate-500 mt-1">Search, filter, and inspect all 20 coded Supreme Court judgments in the dataset.</p>
+                </div>
+                <!-- Search and Filter controls -->
+                <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+                    <div class="relative">
+                        <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <input type="text" id="searchInput" placeholder="Search case name, citation..." class="pl-9 pr-4 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 w-full sm:w-64">
+                    </div>
+                    <select id="yearFilter" class="border border-slate-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 bg-white">
+                        <option value="">All Years</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Table Container -->
+            <div class="overflow-x-auto rounded-lg border border-slate-200">
+                <table class="min-w-full divide-y divide-slate-200 text-sm legal-table" id="judgmentTable">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-3 text-left font-semibold">#</th>
+                            <th class="px-4 py-3 text-left font-semibold">Case Name & Citation</th>
+                            <th class="px-4 py-3 text-left font-semibold">Year</th>
+                            <th class="px-4 py-3 text-left font-semibold">Type</th>
+                            <th class="px-4 py-3 text-left font-semibold">Outcome</th>
+                            <th class="px-4 py-3 text-left font-semibold">Provision</th>
+                            <th class="px-4 py-3 text-left font-semibold">Core Holding</th>
+                            <th class="px-4 py-3 text-center font-semibold">Link</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 bg-white" id="tableBody">
+                        <!-- Populated dynamically via JS -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="flex justify-between items-center text-xs text-slate-500 pt-2">
+                <span id="rowCount">Showing 20 of 20 judgments</span>
+                <span>Source: Official Supreme Court of India Repository</span>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-10 mt-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="space-y-2 text-center md:text-left">
+                <div class="text-white font-serif font-bold text-lg">Maintenance and Alimony Research Project</div>
+                <p class="text-xs text-slate-400">Supreme Court of India · 2021 to 2026 Jurimetric Analysis</p>
+            </div>
+            <div class="flex space-x-6 text-sm">
+                <a href="https://github.com/legal-research/maintenance-alimony-sc-2026" class="hover:text-white transition-colors flex items-center">
+                    <i class="fa-brands fa-github mr-2"></i> GitHub Repository
+                </a>
+                <a href="#overview" class="hover:text-white transition-colors">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Data and App Logic -->
+    <script>
+        const judgmentsData = [
+            {
+                "id": "1",
+                "case_name": "Anju Garg vs Deepak Kumar Garg",
+                "citation": "CRIMINAL APPEAL NO. 1693 OF 2022",
+                "date": "2022-09-28",
+                "year": 2022,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Allowed",
+                "provision": "sec. 125 of CrPC",
+                "issue": "whether after rejection from Family Court and High Court, wife is entitled for maintenance under sec. 125 of CrPC?",
+                "holding": "SC held HC and Family Court wrong; granted wife rupees 10,000 a month",
+                "precedent": "Bhuwan Mohan Singh vs. Meena & Ors.",
+                "link": "https://api.sci.gov.in/supremecourt/2018/43245/43245_2018_9_1501_38622_Judgement_28-Sep-2022.pdf"
+            },
+            {
+                "id": "2",
+                "case_name": "Shahjahan v. State of UP and Another",
+                "citation": "2025 INSC 528",
+                "date": "2025-02-04",
+                "year": 2025,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Allowed",
+                "provision": "sec. 125 of CrPC",
+                "issue": "whether the wife was entitled for maintenance under sec. 125 of CrPc?",
+                "holding": "SC awarded wife rupees 4,000 a month; Family Court's reasoning was wrong",
+                "precedent": "Rajnesh v. Neha",
+                "link": "https://api.sci.gov.in/supremecourt/2018/42369/42369_2018_12_2_59169_Judgement_04-Feb-2025.pdf"
+            },
+            {
+                "id": "3",
+                "case_name": "Rina Kumari @ Rina Devi @ Reena vs Dinesh Kumar Mahto @ Dinesh Kumar Mahato",
+                "citation": "2025 INSC 55",
+                "date": "2025-01-10",
+                "year": 2025,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Allowed",
+                "provision": "sec. 125 of CrPC",
+                "issue": "whether refusal to comply with a decree for restitution automatically disqualifies a wife for maintenance?",
+                "holding": "SC rejected this idea; ground should be sufficient and justifiable",
+                "precedent": "Chaturbhuj vs. Sita Bai",
+                "link": "https://api.sci.gov.in/supremecourt/2024/7336/7336_2024_1_1501_58403_Judgement_10-Jan-2025.pdf"
+            },
+            {
+                "id": "4",
+                "case_name": "Mohd Abdul Samad vs The State Of Telangana",
+                "citation": "2024 INSC 506",
+                "date": "2024-07-10",
+                "year": 2024,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Dismissed",
+                "provision": "sec. 125 of CrPC",
+                "issue": "whether special act prevails over secular provisions of maintenance?",
+                "holding": "SC held section 125 of CrPC should be applied to every women; including divorced muslim women",
+                "precedent": "Danial Latifi V. Union of India",
+                "link": "https://api.sci.gov.in/supremecourt/2024/3533/3533_2024_11_1501_53688_Judgement_10-Jul-2024.pdf"
+            },
+            {
+                "id": "5",
+                "case_name": "Himanshu Chordia vs State Of Rajasthan",
+                "citation": "2026 INSC 778",
+                "date": "2026-07-31",
+                "year": 2026,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Allowed",
+                "provision": "sec. 125(4) of CrPC",
+                "issue": "whether the husband's contention of wife living in adultery under section 125(4)should be determined immediately or deferred to the end, and whether interim maintenance is continued in the meantime?",
+                "holding": "SC held that interim maintenance will be there unless adultery is proved on evidence; it should be decided before final adjudication",
+                "precedent": "Dukhtar Jahan v. Mohd. Farooq",
+                "link": "https://api.sci.gov.in/supremecourt/2025/8519/8519_2025_8_1501_72794_Judgement_31-Jul-2026.pdf"
+            },
+            {
+                "id": "6",
+                "case_name": "S Vijikumari vs Mowneshwarachari C",
+                "citation": "2024 INSC 732",
+                "date": "2024-09-10",
+                "year": 2024,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Allowed",
+                "provision": "sec 25(2) Protection of Women from Domestic Violence Act, 2005",
+                "issue": "whether final maintenance order be set aside using sec. 25 of DV Act, claiming wife hid that she was employed?",
+                "holding": "SC rejected the claim; sec 25(2) allows alteration or revocation only for change of circumstances",
+                "precedent": "Alexander Sambath Abner vs. Miron Lede",
+                "link": "https://api.sci.gov.in/supremecourt/2023/15840/15840_2023_9_9_55546_Judgement_10-Sep-2024.pdf"
+            },
+            {
+                "id": "7",
+                "case_name": "Aditi Alias Mithi vs Jitesh Sharma",
+                "citation": "2023 INSC 981",
+                "date": "2023-11-06",
+                "year": 2023,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Allowed",
+                "provision": "sec 125 of CrPC",
+                "issue": "whether minor daughter's maintenance be reduced by lower courts?",
+                "holding": "SC held HC's order invalid",
+                "precedent": "Rajnesh v. Neha and Another",
+                "link": "https://api.sci.gov.in/supremecourt/2023/38285/38285_2023_11_1505_48074_Judgement_06-Nov-2023.pdf"
+            },
+            {
+                "id": "8",
+                "case_name": "X vs Y",
+                "citation": "2024 INSC 476",
+                "date": "2024-07-08",
+                "year": 2024,
+                "bench": 2,
+                "case_type": "Civil appeal",
+                "outcome": "Partly allowed",
+                "provision": "sec 13(1)(ib) Hindu Marriage Act",
+                "issue": "whether the husband has the right to seek divorce by way of desertion when the wife failed to cohabit and the appropriate amount of alimony?",
+                "holding": "SC granted rupees 30 lakh as full and final maintenance; also divorce was granted",
+                "precedent": "nan",
+                "link": "https://api.sci.gov.in/supremecourt/2019/43625/43625_2019_6_1505_53522_Judgement_08-Jul-2024.pdf"
+            },
+            {
+                "id": "9",
+                "case_name": "Pradeep Bhardwaj vs Priya",
+                "citation": "2025 INSC 852",
+                "date": "2025-07-15",
+                "year": 2025,
+                "bench": 2,
+                "case_type": "Civil appeal",
+                "outcome": "Allowed",
+                "provision": "sec 13(1)(ia) Hindu Marriage Act",
+                "issue": "whether maintenance be enhanced and what amount of maintenance should be payable post-divorce?",
+                "holding": "SC enhanced the monthly maintenance for wife and son to rupees 15,000 a month",
+                "precedent": "Shilpa Sailesh v. Varun Sreenivasan",
+                "link": "https://api.sci.gov.in/supremecourt/2019/20440/20440_2019_3_1501_62322_Judgement_15-Jul-2025.pdf"
+            },
+            {
+                "id": "10",
+                "case_name": "Trisha Singh vs Anurag Kumar",
+                "citation": "2024 INSC 450",
+                "date": "2024-05-15",
+                "year": 2024,
+                "bench": 3,
+                "case_type": "Other",
+                "outcome": "Allowed",
+                "provision": "Art. 142(1) Constitution of India",
+                "issue": "Whether a wife can unilateraly back out from mediated settlement for permanent alimony after taking advantage?",
+                "holding": "SC held that wife can not unilateraly do so; terms of mediated settlement agreement for full and final permanent alimony remains binding",
+                "precedent": "Ruchi Agarwal v. Amit Kumar Agrawal and Others",
+                "link": "https://api.sci.gov.in/supremecourt/2023/7582/7582_2023_3_2_53263_Judgement_15-May-2024.pdf"
+            },
+            {
+                "id": "11",
+                "case_name": "Sukhdev Singh vs Sukhbir Kaur",
+                "citation": "2025 INSC 197",
+                "date": "2025-02-12",
+                "year": 2025,
+                "bench": 3,
+                "case_type": "Civil appeal",
+                "outcome": "Allowed",
+                "provision": "ss 24 and 25 HMA",
+                "issue": "Whether a spouse of marriage declared void under section 11 of can claim permanent alimony under section 25 and interim maintenance under section 24 ?",
+                "holding": "yes it is to both, relief is discretionary and depends soley on the parties conduct",
+                "precedent": "chand dhawan vs jawaharlal dhawan",
+                "link": "https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_4_1501_59475_Judgement_12-Feb-2025.pdf"
+            },
+            {
+                "id": "12",
+                "case_name": "Rakhi Sadhukhan vs Raja Sadhukhan",
+                "citation": "2025 INSC 789",
+                "date": "2025-05-29",
+                "year": 2025,
+                "bench": 2,
+                "case_type": "Civil appeal",
+                "outcome": "Allowed",
+                "provision": "Sec. 27 of SMA; Sec. 24 of HMA",
+                "issue": "whether the permanent alimony with high court fixed for the wife on divorce should be enhanced ?",
+                "holding": "Enhanced to Rs. 50,000 a month with a 5% rise every two years, based on husband's income and the marital standard of living.",
+                "precedent": "nan",
+                "link": "https://api.sci.gov.in/supremecourt/2023/2269/2269_2023_3_1501_62129_Judgement_29-May-2025.pdf"
+            },
+            {
+                "id": "13",
+                "case_name": "Sonia Virk vs Rohit Vats",
+                "citation": "2025 INSC 1390",
+                "date": "2025-12-05",
+                "year": 2025,
+                "bench": 2,
+                "case_type": "Civil appeal",
+                "outcome": "Partly allowed",
+                "provision": "Sec. 25 of HMA",
+                "issue": "whether the permanent alimony the high court fixed for the wife on divorce should be enhanced.",
+                "holding": "Divorce upheld, alimony raised from Rs. 30 lakh to Rs. 50 Lakh as full settlement, given the husband's income and judicial office.",
+                "precedent": "nan",
+                "link": "https://api.sci.gov.in/supremecourt/2024/52790/52790_2024_2_1501_66615_Judgement_05-Dec-2025.pdf"
+            },
+            {
+                "id": "14",
+                "case_name": "Salil Dhawan vs Priyanshi Ghai",
+                "citation": "2026 INSC 577",
+                "date": "2026-05-27",
+                "year": 2026,
+                "bench": 2,
+                "case_type": "Civil appeal",
+                "outcome": "Partly allowed",
+                "provision": "Art. 142 of Constitution of India",
+                "issue": "whether the court should dissolve the marriage under article 142 despite the wife's opposition, what permanent alimony should be fixed?",
+                "holding": "Marriage got dissolved Rs 50 lakh fixed as full and final alimony, replacing Rs 32 lakh offer, and all the pending cases were closed.",
+                "precedent": "Shilpa Sailesh v. Varun Sreenivasan",
+                "link": "https://api.sci.gov.in/supremecourt/2024/61192/61192_2024_2_1502_71618_Judgement_27-May-2026.pdf"
+            },
+            {
+                "id": "15",
+                "case_name": "Mansi Khatri vs Gaurav Khatri",
+                "citation": "Transfer petition (civil) no 1595",
+                "date": "2023-05-19",
+                "year": 2023,
+                "bench": 2,
+                "case_type": "Other",
+                "outcome": "Allowed",
+                "provision": "Art. 142 of Constitution of India",
+                "issue": "What permanent alimony should be fixed for the wife when the parties agree to divorce and leave the amount to the court",
+                "holding": "Marriage broken down irretrievably; mutual consent divorce granted; Rs 35 lakh fixed as permanent alimony, payable within 6 months.",
+                "precedent": "nan",
+                "link": "https://api.sci.gov.in/supremecourt/2022/21900/21900_2022_2_1501_44628_Judgement_19-May-2023.pdf"
+            },
+            {
+                "id": "16",
+                "case_name": "Pankaj Shukla vs Deepak Chaturvedi",
+                "citation": "Special Leave to Appeal (C) No(s). 19120-19121/2023",
+                "date": "2025-11-13",
+                "year": 2025,
+                "bench": 2,
+                "case_type": "Civil appeal",
+                "outcome": "Partly allowed",
+                "provision": "Sec. 13(1), 24 and 25 of HMA",
+                "issue": "Whether the wife should get permanent alimony ?",
+                "holding": "Divorce upheld after 17 years of separation Rs 50 lakh alimony lump sum alimony fixed, payable in three months",
+                "precedent": "nan",
+                "link": "PENDING - official sci.gov.in link to be added"
+            },
+            {
+                "id": "17",
+                "case_name": "Vikas Kanaujia vs Sarita",
+                "citation": "2024 INSC 517",
+                "date": "2024-07-10",
+                "year": 2024,
+                "bench": 2,
+                "case_type": "Civil appeal",
+                "outcome": "Allowed",
+                "provision": "Art. 142 of Constitution of India",
+                "issue": "Whether the marriage should be dissolved for irretrievable breakdown despite the wife's opposition, and whether alimony is payable?",
+                "holding": "Marriage dissolved after 22 years of separation; no permanent alimony as both were doctors with equal earnings.",
+                "precedent": "Shilpa Sailesh v. Varun Sreenivasan",
+                "link": "https://api.sci.gov.in/supremecourt/2019/41310/41310_2019_7_1505_53544_Judgement_10-Jul-2024.pdf"
+            },
+            {
+                "id": "18",
+                "case_name": "Kiran Jyot Maini vs Anish Promod Patel",
+                "citation": "2024 INSC 530",
+                "date": "2024-07-15",
+                "year": 2024,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Allowed",
+                "provision": "Art. 142 of Constitution of India",
+                "issue": "Whether the marriage should be dissolved for irretrievable breakdown and what one-time alimony should be fixed, in place of interim maintenance claims?",
+                "holding": "Marriage dissolved with a fixed alimony of 2 crores, pending cases were closed",
+                "precedent": "Rajnesh v. Neha",
+                "link": "https://api.sci.gov.in/supremecourt/2024/1789/1789_2024_7_1506_53695_Judgement_15-Jul-2024.pdf"
+            },
+            {
+                "id": "19",
+                "case_name": "Parvin Kumar Jain vs Anju Jain",
+                "citation": "2024 INSC 961",
+                "date": "2024-12-10",
+                "year": 2024,
+                "bench": 2,
+                "case_type": "Civil appeal",
+                "outcome": "Partly allowed",
+                "provision": "Sec. 24 and 26 of HMA; Art. 142 of Constitution of India",
+                "issue": "Whether the marriage should be dissolved under Article 142 and what permanent alimony should be paid to the wife and son?",
+                "holding": "Marriage dissolved; Rs 5 crore one-time alimony to wife and Rs 1 crore for the son, payable within 4 months.",
+                "precedent": "Rajnesh v. Neha and Another",
+                "link": "https://api.sci.gov.in/supremecourt/2024/41732/41732_2024_6_1502_57756_Judgement_10-Dec-2024.pdf"
+            },
+            {
+                "id": "20",
+                "case_name": "Smt. N. Usha Rani vs Moodududla Srinivas",
+                "citation": "2025 INSC 129",
+                "date": "2025-01-30",
+                "year": 2025,
+                "bench": 2,
+                "case_type": "Criminal appeal",
+                "outcome": "Allowed",
+                "provision": "sec 125 of CrPC",
+                "issue": "Whether a woman can claim sec 125 maintenance from her second husband while her first marriage has not been resolved by a legal decree?",
+                "holding": "Yes, the husband knew of the first marriage and married her twice she had separated from her first husband by an MoU and received no maintainance from him",
+                "precedent": "Vimala (K) vs Veeraswamy (K)",
+                "link": "https://api.sci.gov.in/supremecourt/2017/23813/23813_2017_7_1501_58898_Judgement_30-Jan-2025.pdf"
+            }
+        ];
+
+        // Render Table
+        function renderTable(data) {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+            
+            if (!data || data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="8" class="px-4 py-8 text-center text-slate-500">No matching judgments found.</td></tr>';
+                document.getElementById('rowCount').innerText = 'Showing 0 of 20 judgments';
+                return;
+            }
+
+            data.forEach(item => {
+                let badgeColor = 'bg-green-100 text-green-800';
+                if (item.outcome && item.outcome.toLowerCase().includes('partly')) badgeColor = 'bg-amber-100 text-amber-800';
+                if (item.outcome && item.outcome.toLowerCase().includes('dismiss')) badgeColor = 'bg-red-100 text-red-800';
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td class="px-4 py-3 whitespace-nowrap font-medium text-slate-900">${item.id || ''}</td>
+                    <td class="px-4 py-3">
+                        <div class="font-semibold text-slate-900">${item.case_name || ''}</div>
+                        <div class="text-xs text-slate-500 font-mono">${item.citation || ''}</div>
+                    </td>
+                    <td class="px-4 py-3 whitespace-nowrap text-slate-600">${item.year || ''}</td>
+                    <td class="px-4 py-3 whitespace-nowrap text-slate-600">${item.case_type || ''}</td>
+                    <td class="px-4 py-3 whitespace-nowrap">
+                        <span class="px-2.5 py-1 text-xs font-semibold rounded-full ${badgeColor}">${item.outcome || ''}</span>
+                    </td>
+                    <td class="px-4 py-3 text-slate-600 text-xs font-mono">${item.provision || ''}</td>
+                    <td class="px-4 py-3 text-slate-700 text-xs max-w-xs truncate" title="${item.holding || ''}">${item.holding || ''}</td>
+                    <td class="px-4 py-3 whitespace-nowrap text-center">
+                        <a href="${item.link || '#'}" target="_blank" class="text-blue-600 hover:text-blue-800 font-medium text-xs bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded transition-colors inline-flex items-center">
+                            <i class="fa-solid fa-external-link-alt mr-1"></i> PDF
+                        </a>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+            document.getElementById('rowCount').innerText = `Showing ${data.length} of 20 judgments`;
+        }
+
+        // Search & Filter Logic
+        const searchInput = document.getElementById('searchInput');
+        const yearFilter = document.getElementById('yearFilter');
+
+        function filterData() {
+            const query = searchInput.value.toLowerCase();
+            const year = yearFilter.value;
+
+            const filtered = judgmentsData.filter(item => {
+                const matchesQuery = (item.case_name && item.case_name.toLowerCase().includes(query)) || 
+                                     (item.citation && item.citation.toLowerCase().includes(query)) || 
+                                     (item.provision && item.provision.toLowerCase().includes(query)) ||
+                                     (item.holding && item.holding.toLowerCase().includes(query));
+                const matchesYear = year === '' || item.year.toString() === year;
+                return matchesQuery && matchesYear;
+            });
+            renderTable(filtered);
+        }
+
+        if (searchInput) searchInput.addEventListener('input', filterData);
+        if (yearFilter) yearFilter.addEventListener('change', filterData);
+
+        // Initial table render on load
+        document.addEventListener('DOMContentLoaded', () => {
+            renderTable(judgmentsData);
+        });
+
+        // Fallback immediate render in case DOMContentLoaded already fired
+        renderTable(judgmentsData);
+
+        // Chart.js Visualizations
+        // Chart 1: Judgments per Year
+        const ctxYear = document.getElementById('chartJudgmentsPerYear').getContext('2d');
+        new Chart(ctxYear, {
+            type: 'bar',
+            data: {
+                labels: ['2021', '2022', '2023', '2024', '2025', '2026'],
+                datasets: [{
+                    label: 'Judgments',
+                    data: [0, 1, 2, 8, 7, 2],
+                    backgroundColor: '#0f766e',
+                    borderRadius: 6,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, ticks: { stepSize: 2 } }
+                }
+            }
+        });
+
+        // Chart 2: Outcome Distribution
+        const ctxOutcome = document.getElementById('chartOutcome').getContext('2d');
+        new Chart(ctxOutcome, {
+            type: 'doughnut',
+            data: {
+                labels: ['Allowed (15)', 'Partly Allowed (5)', 'Dismissed (1)'],
+                datasets: [{
+                    data: [15, 5, 1],
+                    backgroundColor: ['#059669', '#d97706', '#dc2626'],
+                    borderWidth: 2,
+                    borderColor: '#ffffff'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 12 } } }
+                }
+            }
+        });
+
+        // Chart 3: Case Types
+        const ctxCaseType = document.getElementById('chartCaseType').getContext('2d');
+        new Chart(ctxCaseType, {
+            type: 'bar',
+            data: {
+                labels: ['Criminal Appeal', 'Civil Appeal', 'Other / Transfer'],
+                datasets: [{
+                    label: 'Count',
+                    data: [10, 9, 2],
+                    backgroundColor: '#1e293b',
+                    borderRadius: 6,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, ticks: { stepSize: 3 } }
+                }
+            }
+        });
+
+        // Chart 4: Primary Provisions
+        const ctxProvisions = document.getElementById('chartProvisions').getContext('2d');
+        new Chart(ctxProvisions, {
+            type: 'pie',
+            data: {
+                labels: ['CrPC s. 125', 'Hindu Marriage Act (ss. 13/24/25)', 'Article 142', 'DV Act s. 25(2)'],
+                datasets: [{
+                    data: [6, 8, 5, 1],
+                    backgroundColor: ['#0f766e', '#1e293b', '#d97706', '#6366f1'],
+                    borderWidth: 2,
+                    borderColor: '#ffffff'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
